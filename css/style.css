@@ -1,0 +1,231 @@
+/* MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - */ 
+/* MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - */ 
+
+/* RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - */
+/* Overrides browser's built-in styles to give a baseline, with base typography defined */
+
+html,body,div,span,
+applet,object,iframe,
+p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var, 
+dd,dl,dt,li,ol,ul,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#626262;
+	line-height: 14px;
+
+	text-align: left;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4,h5, h6{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#626262;
+	}
+
+html {overflow-y:scroll;} /*--forces scrollbar in firefox--*/
+
+
+
+/* STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - */
+/* STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - */
+
+        body{
+        	font-family: verdana; 
+			background-image:url(../images/bg.jpg); position:relative; background-repeat:repeat-x;
+        	text-align: center;
+        	margin:0;
+        }
+
+        
+        #banner{
+        	margin: 0px auto 0px;
+        	padding: 0px 0px 0px 0px;
+        	border: 0;
+        	width: 1080px;
+        	text-align: left;
+        	background-color: #484848 ;
+        }
+
+
+        #top_header {
+		width: 100%;
+		background-color: #484848;
+		}
+
+								
+		
+		.logo{vertical-align:bottom; }
+		.social{float:right;color:#484848; display:block;}
+		.search{float:right;color:#484848; display:block; margin: 5px 20px;}
+
+        #wrapper{
+        	margin: 0px auto 20px;
+        	padding: 0px 0px 20px 0px;
+        	border: 0;
+        	width: 1080px;
+        	text-align: left;
+        	background-color: #FFFFFF;
+        }
+        
+				
+		#container{
+        background-color: #FFFFFF;
+		width:1080px;
+		margin: 0 auto;
+		}
+
+        #content {border-top:#626262 1px solid;}
+
+	div.module{
+	background:#EEE;
+	width:230px;	
+    padding:10px;
+	}
+
+	div.module img{
+	padding: 0;
+	margin:-10px;
+	}
+	
+	
+div.module ul.sub a.link:hover, div.menuAcdn ul.sub a.current, div.menuAcdn ul.sub div.heading a:hover, div.menuAcdn ul.sub div.heading a.current{
+    color:#ca5800;
+    text-decoration:none;
+    background:none; 
+}
+
+div.module h1{text-align:left;
+    font:bold 12px Verdana;
+    color:#626262; 
+    background:#EEE;
+	padding-bottom:10px;
+	border-bottom:1px solid #D2D8DE;/*1*/
+	
+}
+
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:1060px;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+	padding: 0 10px;
+}
+
+
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+					only padding top and bottom is included here, make it whatever value you need */
+}
+/* 3 Column settings */
+.threecol {
+	background:#fff;		/* right column background colour */
+}
+.threecol .colmid {
+	right:250px;			/* width of the right column */
+	background:#fff;		/* center column background colour */
+}
+.threecol .colleft {
+	right:50%;			/* width of the middle column */
+	background:#fff;	/* left column background colour */
+}
+.threecol .col1 {
+	width:46%;			/* width of center column content (column width minus padding on either side) */
+	left:99%;			/* 100% plus left padding of center column */
+	border-top:#626262 1px solid;
+}
+.threecol .col2 {
+	width:250px;			/* Width of left column content (column width minus padding on either side) */
+	left:28%; 	/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+}
+.threecol .col3 {
+	width:250px;			/* Width of right column content (column width minus padding on either side) */
+	left: 80%;			/* Please make note of the brackets here:
+					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */			
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+
+/* GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES -  */
+/* GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES -  */
+
+
+
+        .page_title{font-size:20px; color:#ca5800; text-transform:uppercase; font-weight:bold;}
+
+
+/* HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - */
+/* HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - */
+
+
+        img {border: 0 solid #fff;}
+        table{border-collapse:collapse;}
+
+        p {	margin: 15px 0 0 0;}
+
+        a, a:link, a:visited {text-decoration: none;color: #626262; font-weight:bold;}
+        a:hover {text-decoration: none;color: #ca5800;}
+
+
+        ul {
+          /* unordered list - ie bulleted */
+          list-style: outside disc;
+          margin: 8px 0 8px 16px;
+        }
+        
+        ul ul {
+          /* unordered list 2nd level */
+          list-style: outside disc;
+          margin: 0 0 0 16px;
+        }				
+
+/* COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - */
+/* COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - */
+
+
+/*Primary colors*/
+    .gray 			{color: #cccc;}
+    .white			{color: #FFFFFF;}
+    .orange 		{color: #ca5800;}
+		
+			
+
+    
+/* GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES -  */
+
+       

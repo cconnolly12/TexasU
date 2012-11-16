@@ -1,0 +1,260 @@
+/* MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - */ 
+/* MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - MISC  - */ 
+
+/* RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - RESETS - */
+/* Overrides browser's built-in styles to give a baseline, with base typography defined */
+
+html,body,div,span,
+applet,object,iframe,
+p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+h1, h2, h3, h4,h5, h6,
+dd,dl,dt,li,ol,ul,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	font-family:verdana;
+
+	line-height: 17px;
+
+	text-align: left;
+	text-decoration: none;
+}
+
+html {overflow-y:scroll;} /*--forces scrollbar in firefox--*/
+
+
+
+/* STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - */
+/* STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - STRUCTURE ELEMENTS - */
+
+        body{
+        	font-family: verdana; 
+			background-image:url(../images/bg.jpg); position:relative; background-repeat:repeat-x;
+        	text-align: center;
+        	margin:0;
+        }
+
+        
+        #banner{
+        	margin: 0px auto 20px;
+        	padding: 0px 0px 0px 0px;
+        	border: 0;
+        	width: 1080px;
+        	text-align: left;
+        	background-color: #333 ;
+        }
+
+
+        #top_header {
+		width: 100%;
+		background-color: #333;
+		}
+
+								
+        #header {width: 1080px; background-color: #333;
+		margin:  0px;}
+		
+		.logo{vertical-align:bottom; }
+		.social{float:right;color:#333; display:block; border:#666 solid 0px 1px 0px 1px;}
+		.search{float:right;color:#333; display:block;}
+
+        #wrapper{
+        	margin: 0px auto 20px;
+        	padding: 0px 20px 20px 20px;
+        	border: 0;
+        	width: 1080px;
+        	text-align: left;
+        	background-color: #FFFFFF;
+        }
+        
+				
+		#container{
+        background-color: #FFFFFF;
+		width:1080px;
+		margin: 0 auto;
+		}
+
+        #content {border-top:#999 1px solid;}
+
+		#breadcrumbs{
+        background-color: #FFFFFF;
+		width:1080px;
+        margin: 10px auto 10px;
+       	padding: 10px 0px 10px 0px;
+		border-top:#666 5px solid;
+	}
+		
+		#left_column {
+		    margin: 0px auto 0px;
+        	padding: 0px 20px 20px 0px;
+			float:left;
+        	border: 0;
+        	width: 250px;
+        	text-align: left;
+        	background-color: #FFFFF
+		}
+		
+		#right_column {
+		    margin: 0px auto 0px;
+        	padding: 0px 0px 20px 20px;
+			float:right;
+        	border: 0;
+        	width: 250px;
+        	text-align: left;
+        	background-color: #FFFFF
+		}
+        
+
+        #footer {	margin: 12px auto 36px; width:1080px;}
+
+
+/* GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES -  */
+/* GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES -  */
+
+
+
+        .page_title{font-size:20px; color:#ca5800; text-transform:uppercase; font-weight:bold;}
+        .body_text{font-size:13px;}
+				.disclaimer {margin: 0;}
+				.disclaimer, .disclaimer a{font-size:9px;line-height:14px;}
+	 			.smalltext {font-size:9px;line-height:14px;}
+				        .smalltext a,.smalltext a:link,.smalltext a:visited {text-decoration: underline;color: #59585B;font-size:9px;line-height:14px;}
+								.smalltext a:hover {text-decoration: none;color: #00AEEF;font-size:9px;line-height:14px;}
+
+				.bold{font-weight:bold;}
+
+				table.voting_buttons{margin:15px 0;}
+				table.voting_buttons a, 
+				table.voting_buttons a:link,
+				table.voting_buttons a:visited,
+				table.voting_buttons a:hover {font-weight:bold;}
+
+/* HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - */
+/* HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - HTML ELEMENTS  - */
+
+
+        img {border: 0 solid #fff;	vertical-align:bottom;}
+        table{border-collapse:collapse;}
+
+        p {	margin: 15px 0 0 0;}
+
+        a, a:link, a:visited {text-decoration: underline;color: #59585B;}
+        a:hover {text-decoration: none;color: #00AEEF;}
+
+        a.add_to_outlook, a.add_to_outlook:link, a.add_to_outlook:visited,  a.add_to_outlook:hover {font-weight:bold;}
+
+        ul {
+          /* unordered list - ie bulleted */
+          list-style: outside disc;
+          margin: 8px 0 8px 16px;
+        }
+        
+        ul ul {
+          /* unordered list 2nd level */
+          list-style: outside disc;
+          margin: 0 0 0 16px;
+        }				
+
+/* COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - */
+/* COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - COLORS - */
+
+
+/*Primary colors*/
+    .cyan 			{color: #00AEEF;}
+    .white			{color: #FFFFFF;}
+				
+/*Secondary colors*/
+    .cyan75 {color: #00BDF2;}/*undefined in guidelines - suggested*/
+    .cyan50 {color: #6DCFF6;}/*undefined in guidelines - suggested*/
+    .cyan25 {color: #B9E5FB;}/*undefined in guidelines - suggested*/
+    .cyan10	{color: #E1F4FD;}
+
+    .black {color: #000000;}
+		.softblack 	{color: #252D33;}/*undefined in guidelines - suggested*/
+    .darkgrey 	{color: #59585B;}
+    .Pantone{color: #00395D;}
+
+    .darkgrey75 {color: #636466;}/*undefined in guidelines - suggested*/
+    .darkgrey50 {color: #939598;}/*undefined in guidelines - suggested*/
+    .darkgrey25 {color: #C7C8CA;}/*undefined in guidelines - suggested*/
+    .darkgrey10	{color: #EBEBEC;}
+
+
+/*Tertiary colors*/
+    .burgundy {color: #9D063B;}
+    .limegreen {color: #519136;}
+    .orange {color: #E5801D;}
+    .taupe {color: #AB9C8F;}
+    .yellow {color: #FEBE10;}
+		
+			
+/* PAGE SPECIFIC - PAGE SPECIFIC - PAGE SPECIFIC - PAGE SPECIFIC - PAGE SPECIFIC - */
+/* AGENDA -  AGENDA -  AGENDA -  AGENDA -  AGENDA -  AGENDA - */ 
+
+        .agenda_date {font-size: 15px;	line-height: 21px; color: #00AEEF; margin: 24px 0 0 0 }
+        
+        table.agenda_content {margin:0;}				
+
+        table.agenda_content tr td {padding:2px; vertical-align:top;}					
+        table.agenda_content tr td.agenda_date {padding:10px 2px 0 0 ; vertical-align:top; border-bottom: solid 1px #00AEEF;}					
+        table.agenda_content tr td.agenda_spacer {padding: 0; height:10px}					
+
+        table.agenda_content tr td.tab_time {padding:2px;}					
+        table.agenda_content tr td.tab_header {padding:2px; background-color: #E1F4FD; }					
+        table.agenda_content tr td.tab_desc {padding:2px 2px 15px; }					
+
+        table.agenda_content tr td.item_time{width:150px;}					
+        table.agenda_content tr td.item_desc{width:542px;}				
+
+        table.agenda_content tr td.top { border-top: solid 1px #00AEEF;}					
+        table.agenda_content tr td.right {border-right: solid 1px #00AEEF;}					
+        table.agenda_content tr td.bottom {border-bottom: solid 1px #00AEEF;}					
+        table.agenda_content tr td.left { border-left: solid 1px #00AEEF;}					
+							
+        table.agenda_content tr td div.title{font-weight:bold;}								
+							 
+
+/* PAGE SPECIFIC - PAGE SPECIFIC - PAGE SPECIFIC - PAGE SPECIFIC - PAGE SPECIFIC - */
+/* biography -  biography -  biography -  biography -  biography -  biography - */ 
+
+        table.agenda_content tr td.separator {vertical-align:top; border-bottom: solid 1px #00AEEF;}					
+
+        table.biography_content {margin:10px 0;}				
+        table.biography_content tr td {vertical-align:top;}					
+        table.biography_content tr td.linktotop {vertical-align:bottom;}					
+        table.biography_content tr td.separator_cyan {vertical-align:top; border-bottom: solid 1px #00AEEF;}		
+        table.biography_content tr td p {margin:0 0 20px 0}					
+     
+		    table.biography_content tr td.bio_pic{width:165px;}					
+        table.biography_content tr td.bio_spacer{width:15px;}				
+        table.biography_content tr td.bio_text{width:480px;}				
+        table.biography_content tr td div.title{font-weight:bold;margin: 0 0 10px 0}								
+        table.biography_content tr td ul{list-style:none outside none; margin:0;} 
+				
+				
+
+/* below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * */
+/* below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * */
+/* below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * */
+/* below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * */
+/* below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * below are old style * */
+
+    
+/* GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES - GENERIC STYLES -  */
+
+
+/*
+        table.content_table {margin:10px 0;}					
+				table.content_table tr td {vertical-align:top;}
+        
+*/

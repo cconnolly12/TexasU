@@ -1,0 +1,528 @@
+/* Edit the width and height of #logo to match your new logo image size when customizing your logo */
+
+#logo {width: 400px;height: 100px;float: left;}
+
+
+
+/* @group Core Elements */
+
+
+
+html {height: 100%;margin-bottom: 1px;}
+
+body {margin: 0;font-family: Arial;font-size: 80%;line-height: 135%;}
+
+
+
+/* Font family information */
+
+
+
+body#ff-default, body#ff-default td {font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+body#ff-default, body#ff-veranda td {font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+body#ff-helvetica, #ff-helvetica td {font-family: Helvetica, Arial, FreeSans, sans-serif;}
+
+body#ff-trebuchet, #ff-trebuchet td {font-family: "Trebuchet MS", sans-serif;}
+
+body#ff-default #horiz-menu, body#ff-default #bottom-menu, body#ff-default a.mainlevel, body#ff-default a.sublevel {font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+/* Core Styles */
+
+
+
+form {margin: 0;padding: 0;}
+
+body.f-small, body#ff-veranda.f-small, body#ff-trebuchet.f-small {font-size: 11px;}
+
+body, body.f-default {font-size: 12px;}
+
+body#ff-helvetica, body#ff-helvetica.f-default {font-size: 13px;}
+
+body.f-large, body#ff-helvetica.f-large {font-size: 14px;}
+
+p {margin-top: 10px;margin-bottom: 15px;}
+
+h1, h2, h3, h4, h5 {padding-bottom: 5px;margin: 25px 0 10px 0;font-weight: normal;line-height: 120%;}
+
+h1 {font-size: 200%;line-height: 100%;}
+
+h2 {font-size: 175%;line-height: 100%;}
+
+h3 {font-size: 150%;}
+
+h4 {font-size: 125%;}
+
+h5 {font-size: 110%;text-transform: uppercase;}
+
+a {text-decoration: underline;}
+
+a:hover {text-decoration: underline;}
+
+.clr {clear: both;}
+
+
+
+/* @end */
+
+
+
+/* @group Joomla Elements */
+
+
+
+.mosimage_caption {font-size: 90%;}
+
+.componentheading {font-size: 180%;line-height: 130%;font-weight: normal;padding: 0 0 0 5px;margin: 0 0 20px 0;}
+
+.contentheading {font-size: 180%;font-weight: normal;border: 0;padding: 0;line-height: 140%;}
+
+span.small, td.createdate, td.modifydate {font-size: 90%;}
+
+table.blog td.createdate {padding-bottom: 5px;}
+
+table.blog td.modifydate {padding-top: 10px;}
+
+td.buttonheading, .contentpaneopen td.buttonheading {padding: 0 1px;border: 0;}
+
+td.column_separator {padding-left: 15px;}
+
+td.componentheading {padding-bottom: 15px;}
+
+.sectiontableheader {font-weight: bold;padding: 4px;line-height: 25px;}
+
+tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry1, td.sectiontableentry2 {text-align: left;padding: 2px 0 0px 5px;}
+
+tr.sectiontableentry2 td, td.sectiontableentry2 {height: 25px;}
+
+tr.sectiontableentry1 td, td.sectiontableentry1 {height: 25px;}
+
+.contentpane, .contentpaneopen {width: 100%;}
+
+
+
+/* @end */
+
+
+
+/* @group Structure */
+
+
+
+#header-bar {padding: 0 10px;overflow: hidden;}
+
+/* added header padding */
+
+#header-bar {padding-top:12px;}
+
+#header-divider {height: 1px;overflow: hidden;}
+
+.logo-module {width: 400px;float: left;overflow: hidden;padding: 15px 0;}
+
+#headerblock-right {width: 518px;height: 108px;float: right;}
+
+#headerblock-right .padding {padding: 6px 0;}
+
+#top-menu {height: 60px;width: 468px;overflow: hidden;display: block;text-align: right;}
+
+
+
+#main-body {border-top: 0;margin-bottom: 4px;}
+
+.maincontent-surround {overflow: hidden;}
+
+#inset-block-right {float: right;}
+
+#inset-block-right .right-padding {padding-left: 15px;}
+
+#inset-block-left {float: left;}
+
+#inset-block-left .left-padding {padding-right: 15px;}
+
+
+
+#topmenu-mod {float: right;width: 67%;visibility: hidden;}
+
+#banner-mod {float: right;width: 60%;padding-top: 8px;}
+
+#rightbanner {float: right; margin-top:30px;overflow:visible;}
+
+#rightbanner .padding {padding: 15px 0 0 15px;}
+
+#rightbanner ul.menu {width:300px;}
+
+#leftbanner {float: left;}
+
+#leftbanner .padding {padding: 15px 20px 0 0;}
+
+
+
+#newsflash-block {float: left;width: 60%;height: 20px;font-style: italic;overflow: hidden;}
+
+#searchmod {height: 26px;padding: 10px 0 0 0;float: right;text-align: right;overflow: hidden;line-height: 28px;}
+
+#searchmod .moduletable, #bottom-menu .moduletable {padding: 0;}
+
+#searchmod .inputbox {width: 233px;height: 18px;border: 0;padding: 4px 0 4px 5px;float: left;}
+
+#searchmod input.button {width: 42px;height: 26px;cursor: pointer;border: 0;margin: 0;}
+
+#searchmod input.button:hover {background-position: 0 -26px;}
+
+
+
+#maincol .padding {padding: 15px;}
+
+#rightcol {float: right;}
+
+#leftcol {float: left;}
+
+
+
+#bottom {padding-bottom: 15px;}
+
+.cns-block {text-align: center;display: block;padding: 10px 0;}
+
+img#cns, img#cns2 {width: 165px;height: 22px;}
+
+
+
+table.mainbody, table.blog {width: 100%;border: 0;padding: 0;}
+
+.spacer .block {float: left;}
+
+.spacer.w99 .block {width: 99.8%;}
+
+.spacer.w49 .block {width: 49.8%;}
+
+.spacer.w33 .block {width: 33.2%;}
+
+.spacer.w24 .block {width: 24.8%;}
+
+.div-spacer {height: 1px;}
+
+
+
+/* @end */
+
+
+
+/* @group Modules */
+
+
+
+#top-menu .moduletable {padding:0;margin: 0;height: 35px;}
+
+#top-menu .moduletable h3 {display: none;}
+
+#top-menu .moduletable td {padding: 0;}
+
+#main-body .showcase-module .moduletable, #main-body .showcase-module2 .moduletable {background: none;}
+
+#mainmodules div.module, #mainmodules2 div.module, #mainmodules div.module-clean, #mainmodules2 div.module-clean {padding: 15px;}
+
+#mainmodules3, #mainmodules4 {margin-bottom: 4px;}
+
+#mainmodules3 .module h3, #mainmodules4 .module h3 {background: none;}
+.module-hilite6, .module-hilite1 {margin: 0;border: 0;}
+.module-hilite6, .moduletable-hilite6, .module-hilite1, .moduletable-hilite1, .moduletable-rssfeed {margin: 10px;padding: 15px;}
+.module-hilite6 h3, .moduletable-hilite6 h3, .module-hilite1 h3, .moduletable-hilite1 h3 {margin-top: 0;font-size: 120%;font-weight: bold;text-indent: 0px;}
+.module-hilite6 h3, body.noicon .moduletable-hilite6 h3, .module-hilite1 h3, body.noicon .moduletable-hilite1 h3 {text-indent: 0;}
+#inset-block-left .moduletable-hilite6, #inset-block-right .moduletable-hilite6, #inset-block-left .moduletable-hilite1, #inset-block-right .moduletable-hilite1 {margin: 0 0 15px 0;}
+.module-hilite6 input.button, .moduletable-hilite6 input.button, .module-hilite1 input.button, .moduletable-hilite1 input.button {width: 62px;height: 14px;display: block;line-height: 14px; margin-top: 10px;text-transform: uppercase;line-height: 14px;font-size: 9px;font-weight: bold;padding: 0;text-indent: 5px;border: 0;text-align: left;cursor: pointer;margin-bottom: 10px;}
+.module-hilite6 input.button:hover, .moduletable-hilite6 input.button:hover, .module-hilite1 input.button:hover, .moduletable-hilite1 input.button:hover {text-decoration: none;background-position: 0 -14px;}
+
+
+/* bredcrumb bottum padding */
+
+.module, .moduletable, .moduletable-clean {padding: 15px 15px 7px 15px;margin: 0;}
+
+
+
+.module-menu {padding: 10px 5px 0 5px;}
+
+/* right menu clean style title etc. */
+
+.module h3, .moduletable h3, .module-clean h3, .moduletable-clean h3 {height: 22px;line-height: 22px;padding: 20px 0px 20px 0px;font-size: 170%;margin: -15px -15px 0 -15px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.module-clean td {font-size: 100%;}
+
+#bottommodules div.module h3 {background: none;}
+
+#bottom-menu div.moduletable {padding-bottom: 0;}
+
+.sidenav-block {margin-top: -1px;}
+
+.sidenav-block h3, .moduletable_menu h3 {margin-top: 0;padding-left: 8px;}
+
+/* edited top banner - chk module table */
+
+#topbanner .moduletable {padding: 12px 0 0px 0;}
+
+#banner-mod .moduletable, #topmenu-mod .moduletable {float: right;margin: 0;padding: 0;}
+
+#leftcol .moduletable, #rightcol .moduletable {padding-bottom: 25px;}
+
+#newsflash .moduletable h3, .logo-module .moduletable h3 {display: none;}
+
+#newsflash .moduletable {margin: 0;padding: 0;}
+
+#bottom .module, #maincol .module, #extendedmodules .module {padding: 25px 15px 15px 15px;}
+
+.moduletable-flush, .logo-module .moduletable {margin: 0;padding: 0;}
+
+#rightbanner .moduletable h3, #leftbanner .moduletable h3 {margin: 0 0 4px 0;padding: 0 0 0 2px;text-transform: uppercase;font-size: 80%;letter-spacing: 1px;font-family: Arial, sans-serif;}
+
+#rightbanner .moduletable, #leftbanner .moduletable {padding: 0;margin: 0 0 35px 0;}
+
+#mainmodules, #mainmodules2, #mainmodules3, #mainmodules4, #bottommodules, #extendedmodules, .showcase-module, .showcase-module2 {overflow: hidden;}
+
+#leftbanner .moduletable h3, #rightbanner .moduletable h3 {background: none;}
+
+#inset-block-left .moduletable-clean, #inset-block-right .moduletable-clean, #inset-block-left .moduletable, #inset-block-right .moduletable {padding: 0 0 20px 0;}
+
+#inset-block-left div.moduletable, #inset-block-right div.moduletable, #inset-block-left div.moduletable h3, #inset-block-right div.moduletable h3 {background: none;}
+
+#topbanner .moduletable h3 {background: none;}
+
+.banner-module, .banner-module2 {text-align: center;}
+
+#maincol .banner-module .moduletable, #maincol .banner-module2 .moduletable {padding-bottom: 15px;background: none;}
+
+.footer-module .moduletable {margin-top: 10px;}
+
+.footer-module .moduletable h3 {background: none;}
+
+#pathway-module .moduletable {padding: 15px;margin-bottom: 15px;}
+
+.moduletable_menu {padding: 10px 5px 5px 5px;margin-top: -1px;}
+
+.moduletable_text {padding: 15px;margin-bottom: 10px;}
+
+.moduletable_text h3 {margin-top: 0;}
+
+
+
+
+
+/* @end */
+
+
+
+/* Horizontal Menus */
+
+
+
+#sub-menu a:hover, #sub-menu ul.menusub li.active a {font-weight: normal;}
+
+#horiz-menu ul {list-style: none;padding: 0;margin: 0;}
+
+#horiz-menu li {display: block;float: left;margin: 0;padding: 0;font-weight: bold; font-size: 10px}
+
+#horiz-menu li a span, #horiz-menu li .separator span {display: block;padding: 0;}
+
+#sub-menu li {display: block;float: left;margin: 0;padding: 0;border: 0;}
+
+#top-menu a.mainlevel {padding: 0 0 0 8px;margin: 0 0 0 0px;}
+
+#horiz-menu ul ul li.active {background: none !important;}
+
+
+
+/* Menu Dropdowns */
+
+
+
+#horiz-menu li li.active, #horiz-menu li.active li a, #horiz-menu li.active li a:hover, #horiz-menu li li a:hover, #horiz-menu ul li.active.parent ul a, #horiz-menu li.active li .separator, #horiz-menu li.active li .separator:hover, #horiz-menu li li .separator:hover, #horiz-menu ul li.active.parent ul .separator {background: none;border: 0;padding: 0;margin: 0;}
+
+#horiz-menu li li a, #horiz-menu li li .separator {font-size: 100%;font-weight: normal;background: none;padding: 0;margin: 0;}
+
+#horiz-menu li li, #horiz-menu li li a span, #horiz-menu li li .separator span {background: none;padding: 0;margin: 0;}
+
+#horiz-menu li li a span, #horiz-menu li li .separator span {padding: 0;}
+
+#horiz-menu li.sfHover li a, #horiz-menu li:hover li a, #horiz-menu ul li.active ul li.active li a, #horiz-menu ul li.active.parent ul li a, #horiz-menu li.sfHover li .separator, #horiz-menu li:hover li .separator, #horiz-menu ul li.active.parent ul li .separator, #horiz-menu ul li.active.parent ul li .seperator {text-indent: 15px;background: none !important;}
+
+#horiz-menu li.active li a, #horiz-menu li.active.parent li a, #horiz-menu li.active li .separator, #horiz-menu li.active.parent li .separator {font-weight: normal;font-size: 100%;background: none !important;}
+
+#horiz-menu ul ul {margin: 0;padding: 0;border-top: 0;}
+
+#horiz-menu ul ul li:hover {background: none !important;}
+
+#horiz-menu ul ul li a, #horiz-menu ul li.active.parent ul a, #horiz-menu ul li.active.parent ul a span, #horiz-menu ul ul li .separator, #horiz-menu ul li.active.parent ul .separator, #horiz-menu ul li.active.parent ul .separator span {text-transform: none;background: none;}
+
+
+
+/* Side Menus */
+
+
+
+a.mainlevel:hover, a.sublevel:hover {text-decoration: none;}
+
+a.mainlevel {line-height: 32px;height: 32px;font-size: 100%;padding: 0 0 0 12px;}
+
+a.sublevel {height: 28px;line-height: 28px;margin: 0;padding: 0 0 0 12px; }
+
+ul.menu {margin:0;padding: 0 0 35px 0;}
+
+ul.menu li {list-style: none;margin: 0;padding: 0;float: none;}
+
+ul.menu span {display: block; height: 34px;line-height: 34px;}
+
+ul.menu li a, ul.menu li .separator {text-indent: 10px;}
+
+ul.menu ul li a, ul.menu ul li .separator {text-indent: 25px;}
+
+ul.menu ul li ul li a, ul.menu ul li ul li .separator {text-indent: 45px;}
+
+ul.menu ul li ul li ul li a, ul.menu ul li ul li ul li .separator {text-indent: 65px;}
+
+ul.menu li.parent ul li span {background: none;}
+
+ul.menu li.active.parent li span {background: none;}
+
+ul.menu li.active.parent ul li, ul.menu li.active.parent ul li.parent ul {background: none;}
+
+ul.menu li.active.parent ul {padding: 6px 0;margin: 0;}
+
+ul.menu ul span {height: 26px;line-height: 26px;}
+
+.moduletable-sidemenu a.mainlevel {margin: 0 0 1px 0;}
+
+ul.menu a, ul.menu .separator {text-decoration: none; display: block;line-height: 32px;text-indent: 0px;height: 32px;overflow: visible;font-size: 95%;float: none;}
+
+ul.menu li.active a, ul.menu li.active li.active a, a#active_menu.mainlevel, a#active_menu.sublevel, ul.menu li.active .separator, ul.menu li.active li.active .separator {font-weight: bold;}
+
+ul.menu li.active li a, ul.menu li.active li.active li a, ul.menu li.active li .separator, ul.menu li.active li.active li .separator {font-weight: normal;}
+
+ul.menu ul li {border: 0;}
+
+ul.menu ul ul {padding: 0; margin: 0;background: none;}
+
+ul.menu li li {padding: 0;margin: 0;border-bottom: 0;}
+
+ul.menu ul a, ul.menu ul .separator {text-indent: 0;}
+
+ul.menu li.active a, ul.menu li.active a:hover, ul.menu li.active .separator, ul.menu li.active .separator:hover {text-decoration: none; line-height: 26px;}
+
+ul.menu li a:hover, ul.menu li .separator:hover {text-decoration: none;}
+
+ul.menu li.active ul {margin-top: 0;margin-bottom: 0;padding-top: 5px;padding-bottom: 5px;}
+
+ul.menu ul {padding: 0;margin: 0 12px;}
+
+ul.menu ul ul {border: 0;}
+
+ul.menu ul a, ul.menu ul .separator {font-size: 95%;height: 26px;line-height: 0px;padding: 0;margin: 0; overflow: visible; white-space: pre;}
+
+ul.menu li.active.parent li {border: 0;}
+
+
+
+/* Bottom Menu */
+
+
+
+#bottom-menu ul#mainlevel-bottom {padding: 0 0 0 15px;margin: 0;height: 55px;}
+
+#bottom-menu #mainlevel-bottom ul {list-style: none;margin: 0;padding: 0;}
+
+#bottom-menu #mainlevel-bottom li {display: block;float: left;margin: 0;padding: 0;}
+
+#bottom-menu #mainlevel-bottom a, #bottom-menu #mainlevel-bottom a#active_menu.mainlevel {white-space: nowrap;display: block;float: left;font-weight: normal; : hidden;height: 55px;line-height: 55px;font-size: 120%;text-decoration: none;padding: 0 20px 0 0;margin: 0 18px 0 0;}
+
+
+
+/* Extra Content Styles */
+
+
+
+a.readon {margin-top: 16px;padding: 0;display: block;font-size: 100%;text-indent: 12px;}
+
+a.readon2 {width: 80px;height: 14px;display: block;margin-top: 16px;text-transform: uppercase;line-height: 14px;font-size: 9px;font-weight: bold;padding: 0;text-indent: 5px;}
+
+a.readon2:hover {text-decoration: none;background-position: 0 -14px;}
+
+#pathway, #pathway-module {width: 100%;display: block;}
+
+
+
+/* breadcrumb area */
+
+span.pathway {display: block;font-weight: normal;line-height: 150%;overflow: hidden;padding-top: 30px;padding-bottom: 0px;padding-left: 0px;}
+
+span.pathway img {padding-right: 1px;width: 8px;height: 7px;}
+
+/* pathway text spacing */
+
+span.pathway a {float: none;padding: 0 5px 0 0;}
+
+#accessibility {width: 50px;height: 14px;float: right;z-index: 5000;padding-top: 4px;}
+
+#accessibility span {background-repeat: no-repeat;}
+
+#accessibility a {text-decoration: none; cursor: pointer;}
+
+#accessibility #buttons {float: right;}
+
+#accessibility .button {display: block;float: right;width: 16px;height: 14px;}
+
+#accessibility a.small .button {margin-right: 5px;}
+
+a.nounder {text-decoration: none;border: 0;cursor: pointer;}
+
+a.nounder:hover {text-decoration: none;}
+
+.clr {clear:both;}
+
+fieldset {border-left: 0;border-right: 0;border-top: 0;}
+
+fieldset.input, a img, body .pollstableborder {border: 0;}
+
+img.content-left {float: left;margin-right: 10px;padding: 5px;}
+
+img.content-right {float: right;margin-left: 10px;padding: 5px;}
+
+.back_button {margin-top: 20px;margin-bottom: 10px;}
+
+.tool-tip {padding: 4px;}
+
+.bannergroup .clr {clear: none !important;}
+
+
+
+/* Login */
+
+
+
+form#form-login ul {padding-left: 18px;}
+
+form#form-login fieldset.input {padding: 0;}
+
+p#form-login-remember {margin-bottom: 5px;}
+
+input#mod_login_username.inputbox, input#mod_login_password.inputbox, input#modlgn_username.inputbox, input#modlgn_passwd.inputbox {height: 20px;display: block;width: 98%;margin-top: 3px;}
+
+.module input.button, .moduletable input.button {border: 0;width: 54px;height: 20px;cursor: pointer;text-align: center;text-transform: uppercase;margin-top: 10px;margin-bottom: 10px;line-height: 18px;padding: 0;font-size: 10px;}
+
+.module-clean input.button, .moduletable-clean input.button {width: 62px;height: 14px;display: block;line-height: 14px; margin-top: 10px;text-transform: uppercase;line-height: 14px;font-size: 9px;font-weight: bold;padding: 0;text-indent: 5px;border: 0;text-align: left;cursor: pointer;margin-bottom: 10px;}
+
+.module-clean input.button:hover, .moduletable-clean input.button:hover {text-decoration: none;background-position: 0 -14px;}
+
+
+
+.menutop ul ul {display:none;}
+
+#horiz-menu ul ul li a.daddy span, #horiz-menu ul ul li a.daddy:hover span, #horiz-menu ul li.active.parent ul li a.daddy span, #horiz-menu ul ul li .separator.daddy span, #horiz-menu ul ul li .separator.daddy:hover span, #horiz-menu ul li.active.parent ul li .separator.daddy span {background:none !important;}
+
+
+/*
+.menutop ul {display:none;}
+
+#horiz-menu ul li a.daddy span, #horiz-menu ul li a.daddy:hover span, #horiz-menu ul li.active.parent ul li a.daddy span, #horiz-menu ul li .separator.daddy span, #horiz-menu li .separator.daddy:hover span, #horiz-menu li.active.parent li .separator.daddy span {background:none !important;}
+
+*/
+/* @end */
